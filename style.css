@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+    background-color:rgb(167, 206, 214);
+    display: grid;
+    place-content: center;
+}
+.position{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20%;
+}
+@media (min-width:468px){
+    .position{
+        max-width: 300px;
+    }
+}
+
+.qr{
+    width: 100%;
+    border-radius: 10px;
+}
+.title, .text{
+    text-align: center;
+}
+.text{
+    color: gray;
+}
+.title{
+    font-size: 22px;
+}
+@media (min-width:468px){
+    .title{
+        font-size: 24px;
+    }
+}
